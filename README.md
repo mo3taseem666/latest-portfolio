@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moataseem Shaaban - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with React, Tailwind CSS, and GSAP animations. Features a clean, minimalist design with smooth interactions and a professional dark theme.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Modern Design**: Clean, minimalist interface with elegant typography
+-   **Dark Theme**: Professional dark mode with teal accent colors
+-   **Responsive**: Fully responsive design for desktop, tablet, and mobile
+-   **Smooth Animations**: GSAP-powered animations and transitions
+-   **Interactive Elements**: Hover effects, smooth scrolling, and dynamic content
+-   **Performance Optimized**: Fast loading and smooth interactions
+-   **SEO Ready**: Proper meta tags and semantic HTML structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-   **Frontend**: React 18 with Next Js
+-   **Styling**: Tailwind CSS
+-   **Animations**: GSAP (GreenSock Animation Platform)
+-   **Icons**: Lucide React
+-   **Package Manager**: PNPM
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Design Features
 
-## Learn More
+### Color Palette
 
-To learn more about Next.js, take a look at the following resources:
+-   **Background**: Dark theme with subtle gradients
+-   **Primary**: Teal/Green accent (#10b981)
+-   **Text**: High contrast white and gray tones
+-   **Cards**: Subtle borders with hover effects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Typography
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   **Primary Font**: Poppins (headings)
+-   **Secondary Font**: Inter (body text)
+-   **Font Sizes**: Responsive scaling from mobile to desktop
 
-## Deploy on Vercel
+### Animations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   **Entrance Effects**: Fade in and slide up animations
+-   **Hover Effects**: Scale and color transitions
+-   **Scroll Animations**: Triggered on viewport entry
+-   **Smooth Scrolling**: Navigation and CTA buttons
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### Prerequisites
+
+-   Node.js (v16 or higher)
+-   PNPM (recommended) or npm
+
+## 📱 Sections Overview
+
+### 1. Hero Section
+
+-   Personal introduction with name and title
+-   Call-to-action buttons for projects and contact
+-   Social media links
+-   Animated background elements
+
+### 2. About Section
+
+-   Personal story and background
+-   Key highlights with icons
+-   Professional stats
+-   Visual profile representation
+
+### 3. Projects Section
+
+-   Featured project showcase
+-   Project cards with hover effects
+-   Technology tags
+-   Live demo and code links
+-   Grid layout with featured projects
+
+### 4. Skills Section
+
+-   Technical skills with proficiency levels
+-   Categorized skill groups
+-   Progress bars with animations
+-   Additional skills and learning section
+
+### 5. Contact Section
+
+-   Contact form with validation
+-   Contact information
+-   Social media links
+-   Professional availability status
+
+## 🎯 Customization
+
+
+---
+
+**Built with ❤️ by Moataseem Shaaban**
