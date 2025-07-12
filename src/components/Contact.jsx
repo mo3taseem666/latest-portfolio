@@ -8,6 +8,7 @@ import {
   Github,
   Linkedin,
   Twitter,
+  Facebook,
   Send,
 } from "lucide-react";
 import emailjs from 'emailjs-com'
@@ -190,10 +191,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground">Email</h4>
                     <a
-                      href="mailto:moataseem@example.com"
+                      href="mailto:mo3data@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors duration-300"
                     >
-                      moataseem@example.com
+                      mo3data@gmail.com
                     </a>
                   </div>
                 </div>
@@ -205,10 +206,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground">Phone</h4>
                     <a
-                      href="tel:+201234567890"
+                      href="tel:+201150998560"
                       className="text-muted-foreground hover:text-primary transition-colors duration-300"
                     >
-                      +20 123 456 7890
+                      +20 115 099 8560
                     </a>
                   </div>
                 </div>
@@ -240,7 +241,7 @@ const Contact = () => {
 
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/mo3taseem666"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
@@ -248,7 +249,7 @@ const Contact = () => {
                   <Github className="w-6 h-6" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/moataseem-shaaban-093b29317"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
@@ -256,12 +257,12 @@ const Contact = () => {
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://www.facebook.com/moataseem.sh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
                 >
-                  <Twitter className="w-6 h-6" />
+                  <Facebook className="w-6 h-6" />
                 </a>
               </div>
             </div>

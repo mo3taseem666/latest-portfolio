@@ -18,18 +18,18 @@ export const metadata = {
         'Next.js',
         'Arabic Web Design'
     ],
-    authors: [{ name: 'Moataseem Shaaban', url: 'https://your-domain.com' }],
+    authors: [{ name: 'Moataseem Shaaban', url: 'https://moataseem.netlify.app' }],
     creator: 'Moataseem Shaaban',
-    metadataBase: new URL('https://your-domain.com'),
+    metadataBase: new URL('https://moataseem.netlify.app'),
     openGraph: {
         title: 'Moataseem Shaaban | Frontend Developer',
         description:
             'Explore the portfolio of Moataseem Shaaban, a frontend developer passionate about minimalism, animations, and pixel-perfect UI.',
-        url: 'https://your-domain.com',
+        url: 'https://moataseem.netlify.app',
         siteName: 'Moataseem Shaaban Portfolio',
         images: [
             {
-                url: '/preview.png', // Replace with your actual preview image
+                url: '/portfoli.png',
                 width: 1200,
                 height: 630,
                 alt: 'Moataseem Shaaban Portfolio Preview'
@@ -43,8 +43,7 @@ export const metadata = {
         title: 'Moataseem Shaaban | Frontend Developer',
         description:
             'Modern portfolio by Moataseem Shaaban showcasing frontend projects with React, Tailwind CSS, and elegant UI design.',
-        images: ['/preview.png'], // Make sure this path is correct
-        creator: '@your_twitter_handle' // Optional
+        images: ['/portfoli.png'],
     },
-    themeColor: '#0f172a' // gray-900 (for dark mode)
+    themeColor: 'var(--primary)'
 };

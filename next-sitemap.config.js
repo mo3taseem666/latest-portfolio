@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://your-domain.com',
+    siteUrl: 'https://moataseem.netlify.app',
     generateRobotsTxt: true,
     generateIndexSitemap: false
 };

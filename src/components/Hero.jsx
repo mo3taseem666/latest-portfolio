@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { Github, Linkedin, Mail, Sparkles } from 'lucide-react';
+import { Github, Linkedin, Mail, Sparkles,Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -343,15 +343,15 @@ const EnhancedHero = () => {
                         className="flex justify-center space-x-6 mb-16"
                     >
                         <a
-                            href="https://github.com"
+                            href="tel:+201150998560"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-125 transform p-3 rounded-full hover:bg-primary/10"
                         >
-                            <Github size={24} />
+                            <Phone size={24} />
                         </a>
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/in/moataseem-shaaban-093b29317"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-125 transform p-3 rounded-full hover:bg-primary/10"
@@ -359,7 +359,7 @@ const EnhancedHero = () => {
                             <Linkedin size={24} />
                         </a>
                         <a
-                            href="mailto:moataseem@example.com"
+                            href="mailto:mo3data@gmail.com"
                             className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-125 transform p-3 rounded-full hover:bg-primary/10"
                         >
                             <Mail size={24} />
