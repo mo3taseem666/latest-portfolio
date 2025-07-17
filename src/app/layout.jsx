@@ -23,6 +23,9 @@ export const metadata = md;
 export default function RootLayout() {
     return (
         <html lang="en">
+             <head>
+                <meta name="google-site-verification" content="hy2QbgstTOpAANsT7w7X4fHIXl980ilTlVo49q7HHmc" />
+            </head>
             <body className={`${montserrat.className} font-sans antialiased`}>
                 <MagneticCursor />
                 <Navigation />
@@ -39,7 +42,7 @@ export default function RootLayout() {
             <Script
                 async
                 defer
-                data-domain="your-domain.com"
+                data-domain="https://moataseem.netlify.app"
                 src="https://plausible.io/js/script.js"
             />
         </html>
